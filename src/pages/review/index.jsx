@@ -32,6 +32,7 @@ export const Review = () => {
           infinite={false}
           initialSlide={QId-1}
           lazyLoad='ondemand'
+          dotPosition='top'
           >
           {data.map((item,index) => (
             <Qcard data ={item} isQuiz={false} key ={`card${index}`} />

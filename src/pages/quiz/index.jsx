@@ -33,16 +33,18 @@ export const Quiz = () => {
   }
   return (
     <>
-        <Card title='Quiz' className='quiz'
-          extra={
-            <Space size='middle'>
-              <h2> Resultado</h2>
+        <Card title={
+          <Space size='middle'>
+              <h4> Resultado</h4>
               <Tag color={
                 (score/2)>0.5?'green':
                 (score/2)>0.3?'yellow':
                 'red'}>{`${50*score}%`
                 }</Tag> 
-              <Divider type="vertical" className='Divider' />
+          </Space>
+        } className='quiz'
+          extra={
+            <Space size='middle'>
               <Button type='primary' shape="round" onClick={() => navigate('/')} >
                 Preguntas
               </Button>

@@ -47,3 +47,6 @@
   height: 3em;
   border-color: #A4036F;
 }
+.Qcard_card > div.ant-card-head > div > div {
+  white-space: unset;
+}

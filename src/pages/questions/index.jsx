@@ -33,13 +33,12 @@ export const Questions = () => {
               </Space>
               } key={`panel${index}`}>
               <p>{item.answer}</p>
-              {item.keywords.map((keyword,index) => (
+              {item.keywords.split(',').map((keyword,index) => (
                 <Tag key={index} color='cyan'> {keyword} </Tag>
               ))}
             </Panel>
         ))}
       </Collapse>
-     
     </Card>
   )
 }

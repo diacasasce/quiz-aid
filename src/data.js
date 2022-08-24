@@ -1,418 +1,455 @@
 export const data = [
-    {
-      question:'WhyLorem ipsum dolor sit amet. Qui dolores minus ad consequuntur voluptatum ut accusantium odio et reiciendis ullam non omnis accusantium. Ut consequuntur sint 33 maxime?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'Why?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'Why?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'Why?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'Why?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'Why?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'Why?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'Why?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one',
-      isOld: true,
-    },
-    {
-      question:'What?',
-      answer: 'cause',
-      keywords: [1, 2, 3, 4],
-      type: 'one', 
-      isOld: true,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
-    {
-      question:'other',
-      answer: `
-      int sensorPin = A0;    // select the input pin for the potentiometer
-      int ledPin = LED_BUILTIN;      // select the pin for the LED
-      float sensorValue = 0;  // variable to store the value coming from the sensor
-
-      // Variables will change:
-      int ledState = LOW;             // ledState used to set the LED
-      bool buttonState = LOW;
-
-      // Generally, you should use "unsigned long" for variables that hold time
-      // The value will quickly become too large for an int to store
-      unsigned long previousMillis = 0;        // will store last time LED was updated
-      `,
-      keywords: [1, 2, 3, 4],
-      type: 'Nuevo Testamento',
-      isOld: false,
-    },
+  {
+    "question": "El Dios de Israel, ¿es un descubrimiento humano?",
+    "answer": "No, es Alguien que ha salido al encuentro del hombre, hablandole a Israel y revelando su voluntad y manifestandole sus designios. La revelación en el AT es por tanto la historia de Dios que se revela a sí mismo y de el hombre que le acoge.",
+    "keywords": "Dios se revela, hombre acoge.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuál ha de ser la atención principal del teólogo frente al fenómeno religioso de Israel?",
+    "answer": "El misterio de Dios en Israel no debe centrarse en cómo interpretó la revelación el Pueblo, sino en los rasgos fundamentales que Dios manifiesta de sí mismo y que han quedado plasmados en los escritos sagrados. Por esto es posible hacer una sintesis de la enseñanza divina a partir del AT y con plenitud en Cristo.",
+    "keywords": "Razgos que Dios manifiesta.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuál es la singularidad de la doctrina del Antiguo Testamento en torno a Dios?",
+    "answer": "La singularidad de la doctrina sobre Dios en el AT radica en la soberanía de Dios, que lo hace fundamento de todo cuanto existe y que lo hace relacionarse con el hombre a través de la Alianza. En clave de lo anterior, Dios se revela a sí mismo, universal, eterno, uno, actuando y con efectividad divina.",
+    "keywords": "Soberanía, universalidad, eternidad, unicidad, efectividad divina.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué se dice que la revelación que Dios hace de sí mismo es\n progresiva?",
+    "answer": "La revelación de Dios en el relato bíblico es progresiva porque es lineal y denota un fin, ofrece una noción de Dios que ha tenido un largo y complejo enriquecimiento. De ahí que las afirmaciones bíblicas tengan gran variedad, según la variedad de situaciones en que Dios interviene. De modo que se revela la evolución que la idea de Dios tuvo en la conciencia del pueblo de Israel.",
+    "keywords": "Lineal, Fin, Enriquecimiento, Evolución",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuáles son las etapas de la revelación divina en el Antiguo Testamento?",
+    "answer": "5 etapas:\n  Tribus nómadas: Dios anonimo, no local.\n Dios de la alianza: Dios de Abraham, hace alianza, tiene nombre.\n Dios del Reino: ligado a reino de Judá y la dinastía de David.\n Dios universal: unico, trascendente, presencia universal. \n La reflexiòn sapiencial: reflexiones sobre su ser, sus atributos y su providencia.",
+    "keywords": "Tribus nómadas, Dios de la alianza, Dios del reino, Dios universal, Reflexión sapiensal",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué es importante la cuestión de los nombres de Dios?",
+    "answer": "Si no se le pudiese atribuir ningún nombre, Dios se nos presentaría como una fuerza anónima e impersonal, incapaz de ser designado e invocado con un nombre concreto.\n Al revelar su nombre, Dios entra definitivamente en la historia humana como un ser personal al que se puede invocar.\n Las cualidades que acompañan el nombre de Dios muestran hasta qué punto, en el pensamiento bíblico, el nombre se identifica con el mismo Dios: santo, grande y terrible, incomunicable y poderoso.",
+    "keywords": "Entra historia humana, invocar, cualidades",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuáles son los principales nombres de Dios?",
+    "answer": "Nombre propio: Yahvé\n Formas complementarias: El Sadday (Dios omnipotente), El Olam (Dios eterno), El Elyon (Dios altísimo) y Adonai (Señor).",
+    "keywords": "Yavhé, Sadday, Olam, Elyion, Adonai",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuáles son las características del nombre “Yahveh”?",
+    "answer": "Nombre relacionado con el concepto de existencia, que se manifiesta activamente, un ser eficaz. Dios entra en contacto con los hombres. Su nombre va unido a los atributos propios de él. Es ser, alguien y no esta relacionado con contingentes.",
+    "keywords": "Realidad viviente, unido a atributos",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué se dice que Dios es un ser personal?",
+    "answer": "No puede reducirse a fuerza anónima de la naturaleza, el AT lo presenta como alguien que se compadece, se arrepiente, como ser creador, como ser sabio, fiel. Su naturaleza personal esta ligada a la Alianza: es un ser que toma decisiones, que se presenta por su nombre, expresa su amor.",
+    "keywords": "No fuerza anónima, individualidad propia, capaz de crear, toma decisiones, alianza, nombre, amor.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué consiste el monoteísmo de Israel?",
+    "answer": "Es el resultado de la revelación de Dios al pueblo, no monolatria (adoro un Dios, pero no afirmo que no exista otro Dios). La revelación a través de los profetas los separo de la monolatria y el politeísmo, y entonces se llega a confesar la fe en un único Dios que se ha revelado así (celo de Dios).",
+    "keywords": "Monolatría, políteismo, revelado, celo divino",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Qué se entiende por creación ex nihilo?",
+    "answer": "Dios creo todo de la nada y por ello es anterior a todas las cosas. El mundo es obra de sus manos, creatura suya y no un derivado de Dios.",
+    "keywords": "Nada, anterior, creatura.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Qué implicaciones tiene esta noción en el concepto de Dios?",
+    "answer": "Al crearlo todo de la nada, Dios es unico y supremo señor del mundo, y no puede ser confundido con su creación. Ser el ser supremo de toda su creación nos da luces sobre Dios mismo y sobre la creación, nos dice que Dios es cercano en su relación con ella, quee todo lo creado es bueno, que Dios gobierna todo lo creado. Esta forma en la que Dios se relaciona con el hombre, la Alianza, es el fin de la creación misma, de modo que la creación misma puede entenderse como prefiguración de la alianza.",
+    "keywords": "Soberanía, alianza, lo creado es prefiguración.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué consiste la trascendencia divina?",
+    "answer": "Se pone de manifiesto en que Dios es el único, el creador y el omnipotente, y la santidad (propia unicamente de Dios) y la espiritualidad (ruah: expresión de la fuerza creadora). El ser humano responde a esa trascendencia divina adorandole por ser Santo y reconociendolo como creador y sustento de todo lo creado.",
+    "keywords": "Santidad, Espiritualidad.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Cuando la Biblia habla de conocer a Dios, ¿a qué se refiere?",
+    "answer": "A reconocerlo como suprema norma de vida, sometiéndose a sus exigencias. Reconocerlo como Dios único. A honrarlo con una conducta de entrega a su voluntad. La responsabilidad del hombre es aceptar o rechazar ese reconocimiento.",
+    "keywords": "Reconocerlo como Dios, involucra la existencia",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Se puede hablar de un conocimiento natural de Dios en la Biblia?",
+    "answer": "Los escritores sagrados no se preocupan por demostrar la existencia de Dios. Se da por hecho que Dios es el Infinito de quien el hombre sabe que existe, que vive y que obra. La realidad de Dios se impone por sí misma y se manifiesta en el acontecer histórico. Entiende la creación como el lugar de encuentro con Él y se da por hecho y como algo natural la existencia de Dios.",
+    "keywords": "Presupone, Creación es lugar de encuentro",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Qué importancia tiene el texto de Sabiduría 13,1-9 en el conocimiento de Dios?",
+    "answer": "Dentro del Antiguo testamento, solo el libro griego de la Sabiduría, en este pasaje, al polemizar sobre la idolatría indica una prueba de la existencia de Dios creador: El hombre debe y puede reconocer al artífice de la creación. Habla de encontrar al Arquitecto Divino por medio de la belleza de la creación. Pero no quedarnos en la adoración de la criatura sino buscar al creador. Habla de lo vano que puede ser el hombre si se queda solo adorando lo creado o incluso, si a través de la belleza de la creación no llega siquiera a preguntarse por su creador. Este pasaje es de suma importancia pues al describir el itinerario mental del hombre hacia Dios, presenta el camino analógico como un camino de acceso a lo divino, seguro y universal.",
+    "keywords": "Artífice de la creación",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué se dice que el hombre solo tiene un conocimiento analógico de\n Dios?",
+    "answer": "A Dios lo conocemos partiendo de la belleza de las criaturas. Se contempla por analogía la belleza del Creador (sab 13, 5)\n El hombre no tiene otro camino para hablar de cómo es Dios sino por analogía.\n Por analogía el hombre tiene vida, sabiduría y amor. Pero estas perfecciones están en Dios de forma distinta. En Dios no están esas perfecciones sino que Dios ES esas perfecciones: Dios es amor, es verdad, es justicia.",
+    "keywords": "Belleza de la creación, perfecciones",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué consiste la omnipotencia de Dios según el Antiguo Testamento?",
+    "answer": "La omnipotencia se ve en muchos lugares: En el génesis se manifiesta en que Dios ha creado todas las cosas y todo subsiste por él.\n Dios ha creado con su palabra omnipotente, ha salvado a su pueblo en el mar Rojo (ex 15,3), ha hecho milagros como el maná, las codornices, ha hecho fecunda a sara una anciana, a santa María siendo virgen, etc. \"Yo doy la vida y la muerte, la salud y la enfermedad\". Ved que solo yo soy y no hay otro Dios.",
+    "keywords": "Creación, salvación, alimentación, fecundación.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué consiste la eternidad de Dios?",
+    "answer": "Se habla de eternidad en Dios desde la perspectiva de aquel que nunca muere, que no está sometido al desgaste de las criaturas, es decir, la generación y a la corrupción. Se presenta a Dios como un Dios vivo en contraposición con los ídolos, dioses muertos. Este Dios exhulta vitalidad y así es como el AT fundamenta la eternidad y explica el actus purus. Este es el rasgo último y más elevado de su existencia.",
+    "keywords": "No generación, No corrupción",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Qué se entiende por eternidad?",
+    "answer": "Eternidad, de acuerdo con Boecio, es la posesión total de la vida infinita. También se hace referencia a la eternidad como aquel no tener principio ni fin.",
+    "keywords": "Posesión total, vida infinita",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuáles son las características de la fidelidad de Dios en el Antiguo\n Testamento?",
+    "answer": "Los profetas señalan como rasgo de la eternidad de Dios la fidelidad de sus promesas, pues si un Dios puede dejar de ser cómo puede mantener sus promesas. Nos recuerda en Isaías 41,2 y otros pasajes que la Palabra de Dios es inmutable y que sus promesas son eternas.Aunque en algunas ocasiones parece que Dios muta su voluntad, cuando se deja convencer por nuestras oraciones, eso no es así.",
+    "keywords": "Inmutable, promesas eternas",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué consisten la omnisciencia, la inmensidad y la omnipresencia de Dios?",
+    "answer": "Omnisciencia: Dios conoce toda su creación, las leyes naturales, el futuro, el corazón del hombre. \n \n Inmensidad: inabarcabilidad, Salmón \"no puede contenerme, esta casa que yo he constriudo\"\n \n Omnipresencia: Dios no esta delimitado a un lugar, presencia simultanea de Dios por ser creador. \n \n Sólo quien lo conoce todo y está en todas partes y no puede ser circunscrito por nada tiene de hecho el poder sobre todas las cosas.",
+    "keywords": "Conoce creación, inabarcabilidad, Salomón, no delimitado a un lugar, presencia simultanea, poder sobre todo.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué se dice que Dios posee la sabiduría en plenitud?",
+    "answer": "En el Génesis se ve esta cualidad al suponerlo poseedor de la ciencia del bien y del mal. Porque la sabiduría descrita como proveniente de Dios está presente en todas las obras de la creación, ella es la primera criatura, todo está penetrado e invadido por la sabiduría, es una emanación de la gloria de Dios.",
+    "keywords": "Creación enanación de Gloria, poseedor de ciencia",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué el pueblo judío tiende a personalizar algunos atributos divinos?",
+    "answer": "Primero: dificultad que experimenta para utilizar nociones abstractas. A la vez, el pueblo hebrero tiene la experiencia de un Dios concreto, que debe ser descrito con palabras concretas.\n Segundo: en el AT Dios mismo prepara al oyente para la revelación de su trinidad. Mediaciones entre Dios y el mundo, como seres pertenecientes a la esfera divina y por los que Dios actúa.\n No es una revelación de la Trinidad, sino una preparación. Insinúan la riqueza íntima de Dios.",
+    "keywords": "Dios concreto, preparación, insinuación",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cómo se personalizan la Sabiduría y la Palabra de Dios en el Antiguo Testamento?",
+    "answer": "Sabiduría: \n Libros de Genesis, Proverbios, Eclesiastico, Isaias y los Salmos. Personalizada como una mujer, con atributos humanos, fuera del alcance de los hombres, de cualidades esplendidas, operante y eficaz. Es una realidad viva que prepara para la doctrina trinitaria.",
+    "keywords": "Genesis, Proverbios, Eclesiastico, Salmos, Isaias, Cualidades humanas esplendidas, Realidad viva y operante, Doctrina trinitaria",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuáles son los atributos morales con los cuales el Antiguo Testamento describe a Dios?",
+    "answer": "Verdad, fidelidad, amor y justicia. Pero en este apartado solo se exponen dos, Verdad y Fidelidad, correspondiente al antiguo testamento. \n \n La verdad de Dios significa Fidelidad y lealtad. Es Fidelidad, es Verdad. \n Y la fidelidad está vinculada a la bondad con los hombres\n \n Fidelidad de qué modo: La alianza. \n Podemos señalar ocho alianzas, en las cuales el hombre rompe a la alianza pero Dios siempre continúa fiel.",
+    "keywords": "Verdad y Fideldiad, Veracidad palabra, alianza.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué se parecen y se diferencian la Verdad y la Fidelidad de Dios?",
+    "answer": "Parecen en: émet, que cuando soy fiel, soy fiel a algo que considero verdadero, soy fiel a una máxima verdadera. Diferencian en: La verdad es veracidad. Es aquella máxima a la que me adhiero. La fidelidad es constancia. Es lo que me permite seguir firme frente a algo.",
+    "keywords": "Fidelidad a máxima verdadera, veracidad, constancia.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué consiste la justicia de Dios en el Antiguo Testamento?",
+    "answer": "La justicia de Dios está relacionada con la misericordia, porque tiene que ver con la manera en la que Dios se relaciona con el hombre, que es siempre fiel y su misericordia es siempre eficaz. La alianza que tiene Dios con el hombre, de manera primigenia, como amor familiar (esponsal y paternal).",
+    "keywords": "Relación con hombre, fidelidad, misericordia, amor esponsal y paternal.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cómo se pueden describir la misericordia y el amor de Dios en el Antiguo\n Testamento?",
+    "answer": "La misericordia es atributo de la justicia divina. Dios es capaz de satisfacer en plenitud toda necesidad del hombre y en cualquier situación negativa también Dios atenderá a nosotros. Amor esponsal y paternal, basadas en la confianza del cumplimiento de la alianza de manera eficaz .",
+    "keywords": "Atributo justicia, plenitud necesidad, peligro, esponsal y paternal, cumplimiento alianza.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Qué relación existe entre la enseñanza sobre Dios que ofrecen el Antiguo Testamento y el Nuevo Testamento?",
+    "answer": "Cuando se habla de Dios en el NT se habla del mismo y único Dios, Yahvé, del AT.\n Los atributos son los mismos, en especial la unicidad.\n - La explicitación del concepto de Dios -> es la novedad radical, no es desarrollo o evolución.\n - Con Cristo, Dios se revela personalmente, superando las revelaciones anteriores infinitamente (Hebreos 1, 1-2)\n \n Una NUEVA revelación del MISMO Dios (de Abrahán, Isaac y Jacob) que desvela su vida íntima y su plan de salvación.",
+    "keywords": "Mismo Dios, mismos atributos, explicitación es novedad, revelación de sí mismo.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué sentido se dice que hay continuidad entre la enseñanza sobre Dios del Antiguo y del Nuevo Testamento?",
+    "answer": "Continuidad: El mismo Dios se revela de diversas formas en el AT. Palabras sobre Dios.\n \n Discontinuidad: Hay novedad, Dios se revela a sí mismo en la palabra encarnada, Dios revela su ser y voluntad. Definitividad e inmediatez. Por Cristo y en Cristo. En Jesús se confirma unidad del AT, pero se revela Trinidad.",
+    "keywords": "Mismo Dios, palabras sobre Dios, Encarnación, Ser y voluntad, Def e inm, Unidad y trinidad.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué se dice que los rasgos divinos del Antiguo Testamento encuentran en Jesús una nueva dimensión y perspectiva? Explique.",
+    "answer": "En AT y NT se expresan los mismos atributos, sobre el mismo ser y con el mismo lenguaje. Sin embargo, en el NT Dios es alguien que encuentro un punto de referencia en la persona humana, una cercanía al mundo y al hombre que se ve por medio de la Encarnación. \n \n Son importantes tres razgos de la predicación de Jesús sobre Dios: \n 1. La proclamación de la inminencia del Reino.\n 2. Exigencia de conversión personal para el Reino.\n 3. Expresión Abba.",
+    "keywords": "Referencia persona humana, Reino, Conversión, Abba",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cuál es la novedad principal del mensaje de Jesús sobre Dios?",
+    "answer": "La principal novedad está en la forma en que llama a Dios PADRE. Jesús llama a Dios ABBÄ, lo llama en la forma que los niños israelíes llaman a su papá. es una expresión de íntima relación con Dios y una conciencia de filiación\n Nos revela el misterio trinitario; la forma en que Cristo quiere que comprendamos a Dios y donde muestra la persona del Padre. \n La filiación de Dios y la de los hombres: Cristo es el unigénito del Padre, tiene un nivel superior de filiación a la de cualquier hombre. \n Él es hijo por naturaleza y nosotros por adopción. La originalidad de Jesús de llamar ABBA a Dios está indisolublemente unida a su enseñanza trinitaria.",
+    "keywords": "Abba, filiación, enseñanza trinitaria.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Por qué se dice que la predicación de Jesús es en realidad un\n testimonio?",
+    "answer": "La respuesta a esta pregunta parte de comprender que la novedad de la revelación en el Nuevo Testamento radica en qué Jesucristo es Dios encarnado. \n Si El Verbo vive dentro del misterio Divino, él es testigo (ha visto) lo que nos revela, a diferencia, por ejemplo, de Moises, que \"vió\" a Dios en la Zarza ardiente, pero que no tuvo una visión directa de Él. \n \n El hijo conoce plenamente al Padre (Lucas 10, 21-22) y por eso puede dar a los hombres una revelación última y definitiva. Es Él mismo el testimonio, su predicación es su propia vida.",
+    "keywords": "Misterio Divino, revelación última y definitiva, Vida es testigo",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿En qué consiste la filiación divina de Jesús y qué implicaciones tiene\n para aproximarse al misterio de Dios?",
+    "answer": "A través del prólogo del Evangelio se Juan se nos pone de manifiesto una verdad: Jesús es el Verbo encarnado, es Dios mismo que se ha hecho hombre. Cuando Jesús habla de su filiación al Padre lo hace porque es hijo natural del padre, comparten una naturaleza, la naturaleza Divina. \n \n Filipenses 2 del 5-11 nos hace comprender que el Hijo al revelarnos su naturaleza divina nos ayuda a acercarnos al misterio trinitario porque podemos comprender que el poder salvífico de Dios es igual en las 3 personas Divinas.",
+    "keywords": "Misma naturaleza, misterio trinitario",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cómo se entienden la verdad y el amor de Dios en dimensión trinitaria?",
+    "answer": "Verdad: \n Dios Padre es luminosidad e inteligibilidad, la verdad subsistente. \n Un tema central en la revelación de Cristo en torno al misterio de Dios estriba en que se identifica a sí mismo con La Verdad, no solo la revela sino que es Verdad revelada. \n Al Espiritu Santo también se le identifica en el A.T con la Verdad, al hablar del Espiritu de Verdad que procede del Padre, que también menciona Cristo en el E. de Juan. \n \n Amor: \n Dios es amor y y al mismo tiempo este amor existe personalmente y se llama E.S. \n El Padre es para el hijo, que es la Verdad, verdadero origen.; el hijo es la verdad nacida del Padre verdadero y el Espíritu Santo es lo que fluye del Padre bueno y del Hijo bueno. Todo esto es una unidad de la Divinidad que no debe separarse.",
+    "keywords": "Subsistente, Verdad revelada, Espiritu de Verdad, Unidad.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Cómo se relacionan monoteísmo y trinidad en Dios?",
+    "answer": "El misterio trinitario es la forma en la que Dios es personal, una profundización del misterio de la unicidad de Dios y no una suavización. La doctrina y las enseñanzas de los Padres de la Iglesia nos dicen que Dios es uno, personal,es conocimiento, es amor y vida en las tres personas.",
+    "keywords": "Profundización",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "¿Qué dice el Nuevo Testamento sobre el conocimiento natural de Dios?",
+    "answer": "En el pensamiento Paulino:\n 1. el hombre tiene la capacidad de llegar a conocer a Dios en lo creado.\n 2. El mundo es revelación de Dios.\n 3. El hombre tiene la capacidad de conocer y reconocer.",
+    "keywords": "Dios revela, hombre conoce y reconoce, ser humano capaz.",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "La revelación de Dios Padre.",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Dios como Padre en el Antiguo Testamento",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "El Padre revelado por el Hijo",
+    "answer": "Cuando Cristo enseña a rezar el Padrenuestro está proponiendo el tratamiento básico con que el cristiano ha de dirigirse a Dios. En el Nuevo Testamento hay una continuidad con las afirmaciones del Antiguo Testamento, pero, al mismo tiempo, en ellos la paternidad de Dios es subrayada con una fuerza y una inmediatez verdaderamente llamativas, a saber: 1. El Señor Jesús no sólo afirma la paternidad de Dios sobre los hombres, sino con qué entrañas de misericordia ejerce esa paternidad. 2. La enseñanza de Jesús sobre la paternidad de Dios entraña una radical novedad, la conciencia de su filiación al Padre. 3. La enseñanza del Antiguo Testamento aparece absolutamente renovada, ya que la Buena Nueva no es que Dios sea como un Padre, sino que Dios es, con toda propiedad, Padre de Jesùs, y que, en Jesús, somos hechos realmente hijos de Dios. 4. Jesús se siente tan unido al padre que Éste le ha otorgado todo su poder. 5. Jesùs conoce lo que conoce el padre. 6. Comparten la misma naturaleza y por lo tanto los mismos atributos. 7. Jesús nunca puso la filiación del Padre al mismo nivel que la del género humano. mi padre, vuestro padre p.e. en Jn 20, 17. 8. La unión entre Padre e Hijo, no es sólo operativa, sino vital y eterna. 9. Si el padre siempre ha existido, el hijo igual. 10. El Hijo no recibe su filiación al ser el enviado, sino que es enviado precisamente por que es el Hijo.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "La revelación de Dios Hijo",
+    "answer": "Jesús es hijo de Dios con tal propiedad y justeza que, por ser verdaderamente hijo, es de la misma naturaleza que el Padre. La Cristología y la Teología son, pues, inseparables.\n Padre e Hijo son realidades correlativas: la paternidad está referida al Hijo, y la filiación está referida al Padre.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Los preludios del Antiguo Testamento",
+    "answer": "Se trata de meras insinuaciones, no de una anticipación o de un comienzo de revelación del misterio de la Santísima Trinidad.\n Se trata de unas personificaciones (se trata del Ángel de Yahvé, de la Palabra de Dios y de la Sabiduría) que pueden considerarse como diversas formas de mediación entre Yahvé y su pueblo.\n \n El Ángel de Yahvé\n El Ángel de Yahvé aparece bajo una forma individual, con una misión salvífica concreta. EI Ángel de Yahvé es guía y protector de los que temen a Dios.\n La Palabra de Dios\n La Palabra de Dios es, antes que nada, la palabra por la que Dios, al revelarse, manifiesta su voluntad sobre Israel al que ha elegido y constituido como pueblo suyo precisamente por su Palabra.\n También es Palabra de Dios la palabra de los profetas. Se trata de una palabra que convierte al profeta en enviado de Yahvé, que hace boca de Yahvé.\n La palabra de Dios no solo hace eficazmente presente el poder de Dios y al mismo Dios, sino que es palabra fuerte, eficaz, llena de sabiduría.\n La sabiduría de Dios\n La sabiduría de Dios, infinita e insondable, se revela en la creación.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "La divinidad de Jesús",
+    "answer": "Jesús manifestó su divinidad poco a poco, de forma gradual y progresiva, mediante una pedagogía adecuada al fuerte sentido monoteísta del pueblo de Israel.\n -Jesús tiene conciencia de su filiación al Padre\n - El NT es un testimonio de la divinidad de Jesús, Cita de la confesión de Pedro Mt 16,16: Tú eres Cristo, el Hijo de Dios vivo\n En los Evangelios sinópticos existen numerosos pasajes en los que Jesus asume el título de Hijo del Hombre. Donde se le atribuye el poder de perdonar los pecados, se declara superior al Templo a los reyes y concretamente a David a los profetas a la Ley, al sábado …\n Afirma que quien ha aceptado al Hijo del Hombre se salva, exige a sus discípulos entregar su vida por ÉL y amarle más que a los propios padres e hijos.\n El Hijo del hombre se presenta como Hijo de Dios igual a Dios, ante el Sanedrín: “verán al Hijo del Hombre sentado a la diestra del poder y venir sobre las nubes del cielo… y fue por eso que por lo que dijeron que era reo de muerte.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Los Evangelios sinópticos",
+    "answer": "En los Evangelios sinópticos existen también numerosos pasajes en los que Jesus asume el título de Hijo del Dios y en general las atribuciones de la filiación divina a Cristo. \n Hay también pasajes muy claros donde Cristo se dirige a Dios en su oración llamándole Padre. Es posible que el término que utiliza es Abbá, esto es insólito para los judíos, introduce rasgos totalmente nuevos, inconcebible en ellos: EL no es un hombre preconstituído a su elección de hijo, sino que todo su ser concreto está ligado indisolublemente a su relación con el Padre.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Las epístolas paulinas",
+    "answer": "Tenemos el célebre himno de la carta a los filipenses, \n Tened en vosotros los mismos sentimientos que tuvo Cristo Jesús. El cual siendo de condición (forma) divina, no retuvo ávidamente el ser igual a Dios. Sino que se anonadó a sí mismo, haciéndose obediente hasta la muerte y muerte de cruz. Por lo cual Dios le exaltó y le otorgó el Nombre que está sobre todo nombre. Para que al nombre de Jesus toda rodilla se doble en los cielos, en la tierra y en los abismos, y toda lengua confiese que Cristo Jesús es Señor para gloria de Dios Padre Fil 2,5-11\n Este himno cristológico resume todo el misterio de Cristo.\n La preexistencia de Cristo, en su divinidad, es fuertemente afirmada por San Pablo en Col 1,15-17\n El cual es imagen del Dios invisible, primogénito de todas las criaturas, pues por Él fueron hechas todas las cosas… Él existe antes de todas las cosas y estas tienen en Él toda su consistencia.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Verbo de Dios e Hijo Unigénito en San Juan",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "El Padre y el Hijo, una sola cosa",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "La revelación de Dios Espíritu Santo",
+    "answer": "El Espíritu Sano tiene varios nombres a lo largo de toda la Biblia: Espíritu de Verdad, Espíritu de Yahvé, Espíritu Santo.\n Es la persona menos conocida de la trinidad. San Josemaría lo llama “El gran desconocido”, quizás dado a que análogo al espíritu del hombre que es su intimidad y por tanto secreta, en Dios ocurre algo similar.\n Es Cristo quien nos presenta y habla del Espíritu. La explicación más clara se da en el pasaje de la última Cena.\n El Espíritu de la verdad nos mostrará el camino a la verdad.\n A través del Espíritu y su Gracia Santificante logramos unirnos al misterio de Dios.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "El Espíritu de Yahvé en el Antiguo Testamento",
+    "answer": "La enseñanza sobre el Espíritu de Yahve ( Espiritu Santo) está en consonancia en el AT y el NT.\n 1. El anuncio de Jesús sobre el envío del Paráclito (Jn 14), se refiere al mismo Espíritu que actuó desde la Creación, el mismo que habló por los profetas y que acompaña a los discipulos en todo el NT para conducirlos la verdad completa.\n \n 2. En el AT el Espiritu es el del viento, que para la vida campesina es muy importante. También es el \"Ruah\" o aliento de vida que respiramo todos los vivos, el que fue infundido en el hombre y que es el alinto de Dios.\n \n 3. La siguiente consideración del espíritu es el algo personal de Dios que él entrega a los hombres y que permite la unión con él. El espíritu de Dios santifica a ls hombres, nos da sabiduría y conocmiento (cf Isaías, Sab)",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Principales textos pneumatológicos en el Nuevo Testamento: a) El Espíritu de Dios como fuerza carismática127-128",
+    "answer": "Cuando se hace referencia al Espíritu Santo como fuerza carismática, en el texto leído no se hace referencia a la misión carismática católica o a los dones que Dios infunde en su Iglesia, sino a que con la gracia del Espíritu Santo se cumple una tarea específica. En este caso, el autor narra varios hechos importantes de la vida de Jesús, inspirados en textos del A.T que hablan de la acción creadora y vivificadora de Dios. Estos son:\n -Concepción virginal de Jesús (Mt 1,18; Lc 1,35): Unicidad de Cristo como Mesías y que es la obra maestra de la intervención divina en la historia, en Cristo se inaugura la plenitud de los tiempos.\n - Bautismo de Jesús en el que se confirma su misión mesiánica.(Lc 4,1)\n - Discurso de Jesús en la Sinagoga de Nazaret en donde Jesús, citando a Isaías 61, 2, afirma que Él es el Ungido por Dios que ha sido llamado para liberar a los oprimidos y dar la vista a los ciegos\n - Otros episodios en donde Jesús responde a quienes sostienen obra milagros por obra de Beelzebú y afirma que su capacidad para expulsar demonios y orar signos proviene de Dios (Mt 12,18. 21)\n - Resurrección como acción de Dios por medio del Espíritu Santo (Rm 8,11ss)",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Principales textos pneumatológicos en el Nuevo Testamento: b) La santificación, obra del Espíritu",
+    "answer": "En el NT:\n  \n Durante la vida terrena del Señor, los personajes más conectados con su misión mesiánica reciben el Espíritu en forma especial: Bautista (Lc 1,15), Zacarías (Lc 1,67), Simeón (Lc 2,25), Isabel (Lc 1,41) y muy especialmente con Santa María (Lc 1, 46-54).\n  \n Al abandonar el mundo, Jesús envía su Espíritu sobre sus apóstoles que ahora deben continuar con su obra; por eso San Pedro, el día de Pentecostés al hablar de la glorificación de cristo dice: “Exaltado a la diestra de Dios y recibida del Padre la promesa del Espíritu Santo, lo derramó según vosotros veis y oís (Hech 2,33).\n  \n Se destacan los siguientes pasajes del NT:\n ·  Hech 2,18: efusión del espíritu en tiempos mesiánicos\n ·  Hech 1,18: cumplimiento de la promesa del señor en su ascensión: recibiréis la fuerza del Espíritu Santo, que vendrá sobre vosotros\n ·  Hec 11, 15-16: el poder del Espíritu Santo en la actuación apostólica: historia de la iglesia primitiva es la Epopeya del ES: efusión del mismo para el nacimiento de iglesias locales.\n ·  La elección de Matías, la de Pablo y Bernabé, la de los diáconos, la institución de los obispos…todas son obras del ES\n ·  Los cristianos son llamados templo del ES (Corintios) y están edificados como morada de Dios (Ef 2,22)\n  \n Los bautizados han sido santificados por el E de nuestro Dios (1 Cor 6,11), Jn 3,3 también habla de la regeneración del agua y el Espíritu.\n  \n Es la presencia del ES en el alma del justo la que otorga ese espíritu de adopción por el que clamamos al Padre, pues la gracia de Dios se ha derramado en nuestros corazones por la gracia del ES que se nos ha dado (Rom 5,5)…y por esto es necesario vivir según el Espíritu y no según la carne.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Principales textos pneumatológicos en el Nuevo Testamento: c) El Espíritu Santo como persona divina",
+    "answer": "Muchos pasajes del NT describen al ES como “alguien” distinto del Padre y del Hijo e íntimamente relacionado con ellos:\n - Sinópticos: en el bautismo de Jesús, el hecho de que descienda como paloma lo hace distinto del Padre y del Hijo (cfr. Mc 1, 9-11; Mt 3,13-17; Lc 3, 21-22); pero mayor distinción hay en el mandato de bautizar en el nombre del Padre, del Hijo y del ES (cfr. Mt 28,19).\n - Hechos de los Apóstoles: llamado “Evangelio del ES”. Muchos pasajes donde se habla del ES como quien reparte dones, de quien brotan carismas, quien indica cómo se debe hacer la expansión de la Iglesia (le dice a Felipe lo del eunuco, Pedro que vaya donde el centurión Cornelio, etc.), suele ir acompañado de los verbos “habitar, distinguir, querer”.\n - Cartas: aparece en fórmulas ternarias: “La gracia del Señor Jesucristo, el amor de Dios y la comunión del ES esté con todos vosotros” (cfr. 1 Cor 12, 4-5; Ef 1, 3-14)\n - S. Juan: textos más explícitos en torno al Espíritu Santos como Persona. Segundo enviado por el Padre: Jn 14, 16-17; Jn 14,26; Jn 16,7. Con más claridad Jn 15,26: Cuando venga el Paráclito que yo os enviaré de parte de mi Padre, el Espíritu de verdad que procede del Padre, Él dará testimonio de mí. Se habla de envío (de JC) y procedencia (del Padre); que a la vez hay que leer junto con Jn 16, 13-15 (también hay cierta procedencia de origen con respecto de Jesucristo).",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "“Personalidad” del Espíritu Santo",
+    "answer": "Criterios a tener en cuenta:\n Como toda persona tiene su personalidad, a tan divina persona le corresponde divina personalidad.\n Su personalidad se va perfilando progresivamente\n La personalidad del Espíritu Santo es la distinción personal con respecto al padre y al hijo. \n Su PERSONALIDAD tiene que ver con su actuar en la vida del hombre y en la existencia. \n El Espíritu aparece como FUERZA DIVINA SANTIFICADORA.\n Se manifiesta de diversas maneras en el ser humano: dones, carismas, frutos pero sobre todo se relaciona de forma racional.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "El Espíritu Santo, enviado por el Padre y el Hijo",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "La misión conjunta del Hijo y del Espíritu",
+    "answer": "Existe una estrecha e interdependiente relación entre la misión del Hijo y la misión del E.S. El Espíritu con respecto al Verbo: Encarna, Revela, Unge, Glorifica, Une a los creyentes a Cristo para vivir en Él. Esta misión se ve reflejada en la Transmisión e Irradiación de la Buena Noticia para que siga viva.\n \n La salvación es posible por la incorporación a Cristo por medio del E.S., es decir, ser hijos de Dios en Cristo por el E.\n La misión del E.S. está también asociada a la encarnación (misión del hijo) como Verbo enviado y se encarna por acción del E.S.\n El Verbo, es imagen de Dios Padre, aunque el E.S. Lo revela. Es el mismo E.S. quien Lo unge.\n Cristo glorificado junto al Padre, envía el E.S. para comunicar Su gloria. Dicha gloria es el mismo Espíritu. La misión del E.S. es unirnos a Cristo mediante la adopción como hijos de Dios.\n S. JP II hablando sobre Jn 16, 12-14, afirma que el E.S. asegura la “buena noticia” (revelada por JCristo) pues a la suprema y completa auto-revelación le sigue la mediación del E.S. ya que son reveladas por el Espíritu de la verdad. Por esto el Señor afirma que “recibirán de lo mío y os Lo comunicará”.\n De igual modo, hay una estrecha relación entre el P y H, al E.S., podemos llamarle: el espíritu del Padre, procede del P, espíritu del H, espíritu de Cristo/Señor.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Expresiones trinitarias del Nuevo Testamento",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "El Bautismo de Jesús",
+    "answer": "",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "El mandato misional de Mt 28,19",
+    "answer": "Mateo 28,19 “Id, pues, y haced discípulos a todos los pueblos, bautizándolos en el nombre del Padre y del Hijo y del Espíritu Santo;”\n Este es el texto más explícito en torno al misterio trinitario, es la fórmula bautismal. Hay una distinción de cada una de las tres personas al mencionarlas pero no hay diferencia esencial las tres personas son iguales. El Bautismo de Jesús y el mandato misional se iluminan mutuamente, ambos apuntan al bautismo cristiano. El mandato misional de Mateo es la fórmula bautismal trinitaria que es la síntesis de la catequesis bautismal.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Tema: La Transfiguración",
+    "answer": "La escena de la transfiguración se relaciona con la teofanía trinitaria del Bautismo. (Mt 17,1-13; Mc 9, 1-12; Lc 28,36). En la transfiguración, Cristo muestra su gloria, pero también su condición de siervo de Yahvé.\n  \n 3 hechos importantes:\n 1. El rostro y sus vestidos se vuelven fulgurantes como la luz.\n 2. Aparecieron Moisés y Elías.\n 3. Se oyó una voz en el cielo: “Éste es mi hijo, mi elegido, escuchadle”. \n  \n Al igual que en el Bautismo, se señala la unión y distinción entre el Padre y el Hijo, la nube insinúa la presencia del Espíritu Santo. Es uno de los pasajes de la revelación de la Santísima Trinidad. Cómo lo dice Santo Tomás: Apareció toda la Trinidad: El padre en la voz, el Hijo en el hombre, el Espíritu Santo en la nube luminosa.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Relación teológica entre el bautismo y la transfiguración",
+    "answer": "El bautismo se da en el umbral de la vida pública y la transfiguración en el umbral de la Pascua.\n En el bautismo de Cristo se da nuestra primera regeneración: nuestro bautismo.\n En la transfiguración de nuestra segunda regeneración con la resurrección",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Pasajes jónicos",
+    "answer": "El Evangelio de Juan tiene en varios de sus libros una concepción triádica de Dios, que da luces de su naturaleza trinitaria. Estos pasajes están en su mayoría en los capítulos que abordan la Última Cena del Señor. Algunos de ellos son:\n Jn 15, 26: \"Cuando venga el Paráclito, yo los enviaré de junto el Padre\"\n Jn 14, 26: \"pero el Paráclito, el espíritu Santo, que el Padre enviará en mi nombre\"\n \n Sin embargo, el pasaje donde se revela la importancia del envío del Paráclito, anunciado antes (Juan 14) se pone de manifiesto en la Oración Sacerdotal (Juan 17, 3 y 21) ya que allí se entiende que la revelación del amor eterno es reunión del rebaño bajo un Pastor, unidad que se da por revelación de la Gloria del Padre, del Hijo y del Espíritu Santo. En Juan la doxología trinitaria (la confesión de Dios trino) se convierte en soteriología (doctrina de la salvación).",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Fórmulas paulinas I (hasta 2 Cor 1,13 -incluida-)",
+    "answer": "Se Puede decir que el pensamiento paulino está totalmente determinado por la Fe “·TRINITARIA”:\n En Cristo los hombres tienen acceso al Padre mediante el Espíritu Santo.\n Cristo es la imagen perfecta del Dios invisible. Cuando el mundo no existía, ya existía el Hijo.\n El hecho de que todo fue creado por Cristo se expresa en la afirmación Jesús es el Señor. (Rom, 10-19).\n Tres textos Paulinos son especialmente significativos:\n  1 (2 Cor 13,3)\n “La gracia del Señor Jesucristo, el amor de Dios y la comunicación del Espíritu Santo esté con vosotros” .\n Fórmula muy utilizada en la liturgia. Distingue las tres personas e insinúa su igualdad. Cada una contribuye a la obra común de la salvación humana.\n 2.(2 Tes 2, 13-14) \n “ Motivos para dar gracias a Dios por hacernos salvos por la santificación del Espíritu y la fe verdadera para alcanzar la gloria por nuestro Señor Jesucristo”\n Se trata de la vocación cristiana , el Espíritu es el Espíritu Santo quien opera la identificación con Cristo.\n 3.(1 Cor, 12, 4 )\n “Hay diversidad de carismas pero un mismo espíritu. Diversidad de ministerios pero uno solo es el Señor. Diversidad de operación pero un solo Dios.”\n Se discute si estos tres: carismas, ministerios y operaciones están relacionados con la Santísima Trinidad. Unidad de todos en Dios.\n \n Lo novedoso del Nuevo Testamento no consiste en una evolución del concepto de Dios, sino en una nueva revelación. En Jesús de Nazaret Dios habla y actúa en el mundo de un modo tan fuerte que a Jesús se le llama hijo de Dios. Jesús llama a Dios su Padre. Promete el Espíritu Santo, espíritu de la verdad a quien Él, enviará desde el Padre.",
+    "keywords": "",
+    "type": "Antiguo Testamento",
+    "isOld": true,
+  },
+  {
+    "question": "Fórmulas paulinas II (desde 1 Cor 12,4-6)",
+    "answer": "El pensamiento Paulino está determinado por la fe Trinitaria\n La mención de la trinidad está relacionada con la Historia de la Salvación Humana\n En Cristo - Hijo, los hombres tienen acceso al Padre por el Espíritu Santo\n \"Vino a anunciar la paz: paz a vosotros que estabais lejos, y paz a los que estaban cerca. Pues por él, unos y otros tenemos libre acceso al Padre en un mismo Espíritu\" Efesios 2. 18\n Cristo es la imagen perfecta de un Dios invisible: 1 Corintios 1. 15: \"Él es Imagen de Dios invisible, Primogénito de toda la creación,\"\n \"Hay diversidad de carismas, pero el Espíritu es el mismo; diversidad de ministerios, pero el Señor es el mismo;\" \"diversidad de operaciones, pero es el mismo Dios que obra en todos.\" 1 Corintios 12. 4-6\n ·  Nombres de Dios: Espíritu, Señor y Dios\n · Se les atribuye: carismas, ministerios, operaciones\n ·  Recibidos por la comunidad: unidad de todos en Dios\n ·  Dios Padre es el principio unificador de la comunidad: traza un plan de redención, que se ha transcurrido en la historia que alcanza su culmen en Jesús\n \"Un solo Cuerpo y un solo Espíritu, como una es la esperanza a la que hemos sido llamados. Un solo Señor, una sola fe, un solo bautismo,\", \"un solo Dios y Padre de todos, que está sobre todos, por todos y en todos.\" Efesios 4,-6",
+    "keywords": ""
+  }
 ]; 

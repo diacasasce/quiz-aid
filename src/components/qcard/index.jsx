@@ -5,6 +5,8 @@ import { CheckSquareOutlined, CloseSquareOutlined} from '@ant-design/icons';
 export const Qcard = (props) => {
   const { data, isQuiz, addScore } = props;
   const {question, answer, keywords,type, isOld} = data;
+  const splitKeywords = keywords.split(',');
+  console.log(splitKeywords);
   const {Panel} = Collapse;
   const { TextArea } = Input;
   const [revealedKeywords, setRevealedKeywords] = useState([]);
@@ -12,7 +14,7 @@ export const Qcard = (props) => {
   const [answered, setAnswered] = useState(false)
   const [result, setResult] = useState(0)
   const revealKeyword = () => {
-    setRevealedKeywords([...revealedKeywords, keywords[revealedIndex]]);
+    setRevealedKeywords([...revealedKeywords, splitKeywords[revealedIndex]]);
     setRevealedIndex(revealedIndex + 1);
   }
   const { useBreakpoint } = Grid;
@@ -21,12 +23,12 @@ export const Qcard = (props) => {
     setAnswered(true);
     setResult(isCorrect ? 1 : -1);
     if (isCorrect) {
-      return 1 * parseFloat(1 - parseFloat(parseFloat( revealedKeywords.length / keywords.length )*0.5));
+      return 1 * parseFloat(1 - parseFloat(parseFloat( revealedKeywords.length / splitKeywords.length )*0.5));
     } 
     return 0;
   };
   return (
-    <div className='Qcard' style={screens.md?{padding:'10vh'}:{padding:'10vh 2vh'}}>
+    <div className='Qcard' style={screens.md?{padding:'10vh'}:{padding:'3vh 2vh'}}>
       <Badge.Ribbon text={type} color={isOld?'purple':'cyan'} >
         <Card 
           title={question} 
@@ -37,7 +39,7 @@ export const Qcard = (props) => {
           <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
             <TextArea rows={4} />
             <Space >
-            <Button type="primary" shape="round" onClick={revealKeyword} disabled={keywords.length === revealedKeywords.length}>
+            <Button type="primary" shape="round" onClick={revealKeyword} disabled={splitKeywords.length === revealedKeywords.length}>
                 Pista
             </Button>
               {

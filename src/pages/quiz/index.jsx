@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Button, Space, Card, Carousel, Tag, Divider } from 'antd'
+import { Button, Space, Card, Carousel, Tag, Grid } from 'antd'
 import { Qcard } from '../../components';
 import { data } from '../../data';
 import { useNavigate} from 'react-router-dom';
@@ -8,8 +8,9 @@ export const Quiz = () => {
   const navigate = useNavigate();
   const typeone = data.filter(item => item.isOld);
   const typetwo = data.filter(item => !item.isOld);
-  console.log(typeone);
-  console.log(typetwo);
+  const { useBreakpoint } = Grid;
+  const screens = useBreakpoint();
+  
   const getRandomIndexes = (max, num) => {
     const indexes = [];
     while (indexes.length < num) {
@@ -46,10 +47,10 @@ export const Quiz = () => {
           extra={
             <Space size='middle'>
               <Button type='primary' shape="round" onClick={() => navigate('/')} >
-                Preguntas
+                {screens.md?'Preguntas':'Pre'}
               </Button>
               <Button type='primary' shape="round" onClick={() =>  navigate('/review/1')} >
-                revision
+                {screens.md?'Revision':'Rev'}
               </Button>
               
             </Space> 

@@ -17,7 +17,6 @@ export const Qcard = (props) => {
   }
   const { useBreakpoint } = Grid;
   const screens = useBreakpoint();
-  console.log(screens);
   const calculateScore = (isCorrect) => {
     setAnswered(true);
     setResult(isCorrect ? 1 : -1);

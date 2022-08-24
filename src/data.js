@@ -1,6 +1,6 @@
 export const data = [
     {
-      question:'Why?',
+      question:'WhyLorem ipsum dolor sit amet. Qui dolores minus ad consequuntur voluptatum ut accusantium odio et reiciendis ullam non omnis accusantium. Ut consequuntur sint 33 maxime?',
       answer: 'cause',
       keywords: [1, 2, 3, 4],
       type: 'one',

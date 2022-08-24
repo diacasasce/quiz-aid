@@ -26,12 +26,17 @@ export const Questions = () => {
     >
       <Collapse>
         {data.map((item,index) => (
-          <Panel header={`${++index} - ${item.question}`} key={`panel${index}`}>
-            <p>{item.answer}</p>
-            {item.keywords.map((keyword,index) => (
-              <Tag key={index} color='cyan'> {keyword} </Tag>
-            ))}
-          </Panel>
+            <Panel header={
+              <Space size='middle'>
+                {`${++index} - ${item.question}`}
+                <Tag key={index} color={item.isOld?'purple':'green'} > {item.type} </Tag>
+              </Space>
+              } key={`panel${index}`}>
+              <p>{item.answer}</p>
+              {item.keywords.map((keyword,index) => (
+                <Tag key={index} color='cyan'> {keyword} </Tag>
+              ))}
+            </Panel>
         ))}
       </Collapse>
      

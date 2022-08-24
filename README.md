@@ -13,6 +13,6 @@ the app has 3 routes
 - ### the base route "/" 
     contains the full question Set 
 - ### the review route "/review/:questionId" 
-- ### the review route "/review/:questionId" 
+- ### the review route "/quiz" 
     contains a simple quiz functionality that select one random question per type and set up a score depending on the answer
 

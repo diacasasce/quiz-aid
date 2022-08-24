@@ -38,7 +38,7 @@ export const Qcard = (props) => {
         >
           <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
             <TextArea rows={4} />
-            <Space >
+            <Space wrap>
             <Button type="primary" shape="round" onClick={revealKeyword} disabled={splitKeywords.length === revealedKeywords.length}>
                 Pista
             </Button>
